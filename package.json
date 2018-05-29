@@ -1,0 +1,38 @@
+{
+  "name": "vsts-pull-request-creator",
+  "version": "1.0.0",
+  "description": "A simple command line tool that creates a VSTS PR on your current git repository",
+  "keywords": [
+    "vsts",
+    "pull request",
+    "pr"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Asaf Strassberg",
+    "email": "asafst@microsoft.com"
+  },
+  "license": "MIT",
+  "bin": {
+    "vsts-pr": "./dist/index.js"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "clipboardy": "^1.2.3",
+    "commander": "^2.15.1",
+    "git-remote-origin-url": "^2.0.0",
+    "git-rev": "^0.2.1",
+    "node-fetch": "^2.1.2",
+    "simple-git": "^1.95.0"
+  },
+  "devDependencies": {
+    "@types/base-64": "^0.1.2",
+    "@types/clipboardy": "^1.1.0",
+    "@types/git-remote-origin-url": "^2.0.1",
+    "@types/git-rev": "^0.2.0",
+    "@types/node": "^10.1.3",
+    "@types/node-fetch": "^1.6.9"
+  }
+}
