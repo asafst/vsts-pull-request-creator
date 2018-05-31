@@ -1,14 +1,14 @@
 {
   "name": "vsts-pull-request-creator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple command line tool that creates a VSTS PR on your current git repository",
   "keywords": [
     "vsts",
     "pull request",
     "pr"
   ],
-  "main": "./dist/index.js",
   "scripts": {
+    "tsc": "tsc",
     "setup": "npm install",
     "build": "tsc",
     "build-watch": "tsc --watch",
@@ -46,6 +46,7 @@
     "@types/node-fetch": "^1.6.9",
     "mocha": "^5.2.0",
     "shx": "^0.2.2",
-    "typedoc": "^0.11.1"
+    "typedoc": "^0.11.1",
+    "typescript": "^2.8.3"
   }
 }

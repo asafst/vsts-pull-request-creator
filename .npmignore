@@ -4,6 +4,8 @@ tsconfig.json
 src/
 docs/
 .npmignore
+.vscode
+tslint.json
 
 // npm pack
 vsts-pull-request-creator-*.tgz

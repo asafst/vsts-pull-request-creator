@@ -24,9 +24,3 @@ deploy:
     skip_cleanup: true
     on:
       tags: true
-  - provider: npm
-    skip_cleanup: true
-    email: "asafst@microsoft.com"
-    api_key: $NPM_TOKEN
-    on:
-      tags: true
